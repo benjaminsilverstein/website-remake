@@ -1,0 +1,124 @@
+*,
+body {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+li {
+  display: block;
+}
+
+ul {
+  display: block;
+}
+
+.mobile-menu-bar {
+  background-color: #002d71;
+  border-left: 5px solid rgb(141, 213, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-menu-button {
+  width: 100px;
+  background: none;
+  color: white;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-left: 1px solid white;
+}
+
+nav {
+  background-color: #0b2246;
+  color: white;
+}
+
+.primary-nav {
+  align-content: center;
+  text-align: center;
+}
+.primary-nav li {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.utility-nav {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+
+.utility-nav li {
+  padding: 8px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icon {
+  padding: 0px 10px;
+}
+
+#search-bar {
+  margin-top: 15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 300px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+input[type="search"] {
+  background: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  flex: 2;
+}
+
+.search-submit {
+  background-color: none;
+  width: 40px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.callout-nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.callout-nav li {
+  flex: 1;
+  padding: 20px;
+}
+
+#join {
+  background-color: white;
+  color: black;
+}
+
+#act {
+  background-color: #f68e13;
+  color: white;
+}
+#donate {
+  background-color: #1057c1;
+  color: white;
+}
